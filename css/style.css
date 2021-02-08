@@ -13,8 +13,9 @@ body {
   .navbar li {
     padding-right: 0.7rem; }
   .navbar-nav .nav-link {
+    color: white !important;
     padding: 0.7rem 0; }
-    .navbar-nav .nav-link:active, .navbar-nav .nav-link:hover {
+    .navbar-nav .nav-link:hover, .navbar-nav .nav-link:active {
       color: #1ebba3 !important; }
   .navbar-brand img {
     height: 2rem; }

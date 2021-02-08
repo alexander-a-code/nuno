@@ -17,11 +17,11 @@ body {
   }
 
   &-nav .nav-link {
-    // color: white !important;
+    color: white !important;
     padding: 0.7rem 0;
 
-    &:active,
-    &:hover {
+    &:hover,
+    &:active {
       color: #1ebba3 !important;
     }
   }

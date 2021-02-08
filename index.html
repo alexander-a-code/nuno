@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body>
 	<!--- Start Course Section -->
 	<!-- <div id="course" class="offset">
 
@@ -24,7 +24,12 @@
 	<!--- End Course Section -->
 
 	<!-- Start Home Section -->
-	<div id="home"><!--navbar-dark = light links expand is on which screen to expand-->
+	<div id="home" data-spy="scroll" data-target="#navbarResponsive">
+		<!--
+			navbar-dark = light links expand is on which screen to expand 
+			data-spy + target id
+			Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.
+		-->
 		<nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
 			<a href="index.html" class="navbar-brand"><img src="/img/nuno.png" alt="logo" title="logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
