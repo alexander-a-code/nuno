@@ -21,7 +21,7 @@ body {
     padding: 0.7rem 0;
 
     &:hover,
-    &:active {
+    &.active {
       color: #1ebba3 !important;
     }
   }
@@ -30,5 +30,4 @@ body {
     height: 2rem;
   }
 }
-
 /*-- End Navbar --*/
