@@ -12,12 +12,23 @@ body {
   letter-spacing: 0.1rem;
   background: rgba(0, 0, 0, 0.6) !important;
 
+  & li {
+    padding-right: 0.7rem;
+  }
+
+  &-nav .nav-link {
+    // color: white !important;
+    padding: 0.7rem 0;
+
+    &:active,
+    &:hover {
+      color: #1ebba3 !important;
+    }
+  }
+
   &-brand img {
     height: 2rem;
   }
 }
 
-.navbar-nav li {
-  padding-right: 0.7rem;
-}
 /*-- End Navbar --*/
