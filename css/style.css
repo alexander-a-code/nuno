@@ -20,4 +20,7 @@ body {
   .navbar-brand img {
     height: 2rem; }
 
+.carousel-item {
+  height: 100vh; }
+
 /*-- End Navbar --*/
