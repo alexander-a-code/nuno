@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962; }
+
+/*-- Start Navbar --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: red; }
+
+/*-- End Navbar --*/
+
+/*# sourceMappingURL=style.css.map */
