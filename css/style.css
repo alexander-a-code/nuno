@@ -3,6 +3,12 @@ body {
   font-family: 'Lato', sans-serif;
   color: #505962; }
 
+.offset::before {
+  height: 3.8rem;
+  margin-top: 3.8 rem;
+  content: '';
+  display: block; }
+
 .narrow {
   width: 75%;
   margin: 0 auto;
@@ -12,23 +18,6 @@ body {
   padding: 0.6rem 1.1rem;
   text-transform: uppercase;
   margin: 1rem; }
-
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: 0.6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #1ebba3;
-  background-color: #1ebba3;
-  color: white; }
-
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white; }
 
 /*-- Start Navbar --*/
 .navbar {
@@ -50,4 +39,51 @@ body {
 .carousel-item {
   height: 100vh; }
 
+.carousel-caption {
+  text-transform: uppercase;
+  top: 38%; }
+  .carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 1rem; }
+  .carousel-caption h3 {
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 1.6rem; }
+  .carousel-caption .btn-lg {
+    border-width: thin;
+    background-repeat: 0;
+    font-size: 1.1rem; }
+
 /*-- End Navbar --*/
+/*-- Start 3x3 link images Section --*/
+.jumbotron {
+  border-radius: 0;
+  padding: 3rem 0 2rem;
+  margin-bottom: 0; }
+  .jumbotron h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem; }
+  .jumbotron .heading-underline {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem; }
+
+.gallery {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000; }
+  .gallery img {
+    max-width: 100%;
+    transition: transform 0.5s ease; }
+    .gallery img:hover {
+      transform: scale(1.1);
+      cursor: zoom-in; }
+
+/*-- End 3x3 link images Section --*/
