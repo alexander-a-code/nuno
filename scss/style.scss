@@ -15,6 +15,15 @@ body {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
+  @media screen and (max-width: 767px) {
+    & h1 {
+      font-size: 1.5rem;
+    }
+
+    & .lead {
+      font-size: 1rem;
+    }
+  }
 }
 
 .heading-underline {
@@ -84,6 +93,22 @@ body {
     background-repeat: 0;
     font-size: 1.1rem;
   }
+
+  @media screen and (max-width: 767px) {
+    & h1 {
+      font-size: 2.3rem;
+      letter-spacing: 0.15rem;
+      padding-bottom: 0.5rem;
+    }
+    & h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+      font-size: 1rem;
+    }
+  }
 }
 /*-- End Navbar --*/
 
@@ -92,12 +117,19 @@ body {
   border-radius: 0;
   padding: 3rem 0 2rem;
   margin-bottom: 0;
+  @media screen and (max-width: 767px) {
+    padding: 2rem 0 1rem;
+  }
 
   & h3 {
     font-size: 1.9rem;
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 1.9rem;
+    @media screen and (max-width: 767px) {
+      font-size: 1.7rem;
+      padding-bottom: 0.8rem;
+    }
   }
 }
 .gallery {
@@ -118,8 +150,27 @@ body {
     }
   }
 }
-
 /*-- End 3x3 link images Section --*/
+
+/*-- Start Section Team--*/
+#team {
+  cursor: pointer;
+
+  .row .container {
+    display: flex;
+  }
+
+  @media screen and (max-width: 767px) {
+    .heading {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    .row .container {
+      display: block;
+    }
+  }
+}
+/*-- End Section Team--*/
 
 /*-- Contact Section --*/
 footer {
@@ -133,11 +184,20 @@ footer {
     margin: 1.5rem 0;
   }
 
-  & a {
+  & .svg-inline--fa {
+    margin: 1.2rem 0.5rem 0 0;
+    font-size: 1.6rem;
     color: white;
     &:hover {
       color: #1ebba3;
     }
   }
+
+  hr.socket {
+    border-top: 0.2rem solid #666b71;
+    width: 100%;
+  }
 }
 /*-- End Section --*/
+
+// media quieries

@@ -13,6 +13,11 @@ body {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem; }
+  @media screen and (max-width: 767px) {
+    .narrow h1 {
+      font-size: 1.5rem; }
+    .narrow .lead {
+      font-size: 1rem; } }
 
 .heading-underline {
   width: 5rem;
@@ -62,6 +67,16 @@ body {
     border-width: thin;
     background-repeat: 0;
     font-size: 1.1rem; }
+  @media screen and (max-width: 767px) {
+    .carousel-caption h1 {
+      font-size: 2.3rem;
+      letter-spacing: 0.15rem;
+      padding-bottom: 0.5rem; }
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem; }
+    .carousel-caption .btn-lg {
+      font-size: 1rem; } }
 
 /*-- End Navbar --*/
 /*-- Start 3x3 link images Section --*/
@@ -69,11 +84,18 @@ body {
   border-radius: 0;
   padding: 3rem 0 2rem;
   margin-bottom: 0; }
+  @media screen and (max-width: 767px) {
+    .jumbotron {
+      padding: 2rem 0 1rem; } }
   .jumbotron h3 {
     font-size: 1.9rem;
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 1.9rem; }
+    @media screen and (max-width: 767px) {
+      .jumbotron h3 {
+        font-size: 1.7rem;
+        padding-bottom: 0.8rem; } }
 
 .gallery {
   width: 100%;
@@ -88,6 +110,19 @@ body {
       transition: transform 0.5s, opacity 0.5s; }
 
 /*-- End 3x3 link images Section --*/
+/*-- Start Section Team--*/
+#team {
+  cursor: pointer; }
+  #team .row .container {
+    display: flex; }
+  @media screen and (max-width: 767px) {
+    #team .heading {
+      font-size: 2rem;
+      margin-bottom: 0; }
+    #team .row .container {
+      display: block; } }
+
+/*-- End Section Team--*/
 /*-- Contact Section --*/
 footer {
   background-color: #40474e;
@@ -97,9 +132,14 @@ footer {
   footer img {
     height: 3rem;
     margin: 1.5rem 0; }
-  footer a {
+  footer .svg-inline--fa {
+    margin: 1.2rem 0.5rem 0 0;
+    font-size: 1.6rem;
     color: white; }
-    footer a:hover {
+    footer .svg-inline--fa:hover {
       color: #1ebba3; }
+  footer hr.socket {
+    border-top: 0.2rem solid #666b71;
+    width: 100%; }
 
 /*-- End Section --*/
